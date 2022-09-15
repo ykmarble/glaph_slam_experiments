@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ptx</name>
+  <version>0.0.0</version>
+  <description>Power point (cloud) tools.</description>
+  <maintainer email="milkcocoapple@gmail.com">ykmarble</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>roslib</depend>
+  <depend>tf</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_eigen</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_sensor_msgs</depend>
+  <depend>pluginlib</depend>
+  <depend>nodelet</depend>
+  <depend>pcl_ros</depend>
+  <depend>pcl_conversions</depend>
+  <depend>laser_geometry</depend>
+  <depend>fast_gicp</depend>
+
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+
+  <depend>libg2o</depend>
+  <depend>eigen</depend>
+  <depend>libpcl-all-dev</depend>
+
+  <export>
+    <nodelet plugin="${prefix}/nodelet.xml" />
+  </export>
+</package>

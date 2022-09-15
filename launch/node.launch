@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="ptx" type="graph_slam_ros_node" name="graph_slam_ros_node">
+</launch>

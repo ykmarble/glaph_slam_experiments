@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="nodelet" type="nodelet" name="ptx_nodelet_manager" args="manager"></node>
+  <node pkg="nodelet" type="nodelet" name="ptx" args="load ptx/nodelet ptx_nodelet_manager"></node>
+</launch>

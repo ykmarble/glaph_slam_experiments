@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<library path="lib/libgraph_slam_ros_nodelet">
+  <class type="ptx::GraphSlamROSNodelet" base_class_type="nodelet::Nodelet">
+    <description>Nodelet</description>
+  </class>
+</library>
